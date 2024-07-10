@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34729.46
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vistas", "Vistas\Vistas.csproj", "{8513808D-7071-43A9-A1A1-F4B819CA1EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neogcio", "Neogcio\Neogcio.csproj", "{7739916B-773D-4515-AF88-0CE9D9678673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{8AEB3AE5-7823-4A1D-B0D7-A2C084FAC1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{F9A69251-63BF-4D68-AB53-530BB544BFAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SCRIPTS_DB", "SCRIPTS_DB", "{12F8AC8A-66C9-42FC-BA35-C883521E6024}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Downloads\taller_de_herramientas.sql = ..\..\..\..\..\Downloads\taller_de_herramientas.sql
+		..\..\..\TPIntegrador_Grupo1.Version4.docx = ..\..\..\TPIntegrador_Grupo1.Version4.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8513808D-7071-43A9-A1A1-F4B819CA1EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8513808D-7071-43A9-A1A1-F4B819CA1EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8513808D-7071-43A9-A1A1-F4B819CA1EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8513808D-7071-43A9-A1A1-F4B819CA1EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7739916B-773D-4515-AF88-0CE9D9678673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7739916B-773D-4515-AF88-0CE9D9678673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7739916B-773D-4515-AF88-0CE9D9678673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7739916B-773D-4515-AF88-0CE9D9678673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AEB3AE5-7823-4A1D-B0D7-A2C084FAC1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AEB3AE5-7823-4A1D-B0D7-A2C084FAC1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AEB3AE5-7823-4A1D-B0D7-A2C084FAC1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AEB3AE5-7823-4A1D-B0D7-A2C084FAC1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A69251-63BF-4D68-AB53-530BB544BFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A69251-63BF-4D68-AB53-530BB544BFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A69251-63BF-4D68-AB53-530BB544BFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A69251-63BF-4D68-AB53-530BB544BFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A3C98F9-BF96-4F3A-9F95-5D6ABA593E52}
+	EndGlobalSection
+EndGlobal

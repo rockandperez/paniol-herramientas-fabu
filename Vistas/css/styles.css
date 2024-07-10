@@ -1,0 +1,53 @@
+﻿
+
+.container {
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.encabezado {
+    padding: 3px;
+    display: flex;
+    text-align: left;
+}
+
+
+.box {
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/*Flexbox css*/
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%; /* Ocupa el 90% del ancho de la pantalla */
+    margin: auto; /* Centra el contenedor horizontalmente */
+}
+
+.table-row {
+    display: flex;
+}
+
+.table-cell {
+    flex: 1;
+    /*border: 1px solid #ccc;*/
+    padding: 5px;
+    text-align: center;
+    vertical-align:middle;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
