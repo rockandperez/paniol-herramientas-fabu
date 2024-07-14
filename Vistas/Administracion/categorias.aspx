@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/materia/bootstrap.min.css" rel="stylesheet" />
     <link href="../css/styles.css" rel="stylesheet" />
 
-    <title>Control de Herramientas</title>
+    <title>Control de Herramientas - Categorías</title>
 
 </head>
 <body>
@@ -22,12 +22,9 @@
                 <table class="table-container">
                     <tr class="table-row">
                         <td class="table-cell"></td>
-                        <td class="table-cell"></td>
-                        <td class="table-cell"></td>
-                    </tr>
-                    <tr class="table-row">
-                        <td class="table-cell"></td>
-                        <td class="table-cell"></td>
+                        <td class="table-cell">
+                            <h4>Herramientas - Categorías</h4>
+                        </td>
                         <td class="table-cell"></td>
                     </tr>
                     <tr class="table-row">
@@ -37,17 +34,37 @@
                     </tr>
                     <tr class="table-row">
                         <td class="table-cell"></td>
-                        <td class="table-cell"></td>
-                        <td class="table-cell"></td>
-                    </tr>
-                    <tr class="table-row">
-                        <td class="table-cell"></td>
-                        <td class="table-cell"></td>
+                        <td class="table-cell">Filtrar:
+                            <asp:TextBox ID="TXTCategoria" runat="server"></asp:TextBox>
+                            <asp:Button ID="BtBuscar" runat="server" OnClick="BtBuscar_Click" Text="Buscar" />
+                        </td>
                         <td class="table-cell"></td>
                     </tr>
                     <tr class="table-row">
                         <td class="table-cell"></td>
+                        <td class="table-cell">
+                            <asp:GridView ID="GridCategorias" runat="server" AllowPaging="True" AutoGenerateColumns="False" PageSize="5" CellPadding="3" CellSpacing="2" HorizontalAlign="Center" Width="100%">
+                                <Columns>
+                                    <asp:TemplateField HeaderText="Id">
+                                        <ItemTemplate>
+                                            <asp:Label ID="Lb_it_IdCateg" runat="server" Text='<%# Bind("id") %>'></asp:Label>
+                                        </ItemTemplate>
+                                    </asp:TemplateField>
+                                    <asp:TemplateField HeaderText="categoria">
+                                        <ItemTemplate>
+                                            <asp:Label ID="LbCategoria" runat="server" Text='<%# Bind("categoria") %>'></asp:Label>
+                                        </ItemTemplate>
+                                    </asp:TemplateField>
+                                </Columns>
+                            </asp:GridView>
+                        </td>
                         <td class="table-cell"></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell"></td>
+                        <td class="table-cell">
+                            <asp:Button ID="BTNNueva" runat="server" OnClick="BTNNueva_Click" Text="NUEVA" />
+                        </td>
                         <td class="table-cell"></td>
                     </tr>
                     <tr class="table-row">
@@ -59,8 +76,5 @@
             </div>
         </div>
     </form>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -70,5 +70,13 @@ namespace Datos
              return conexionDB.EjecutarABM(sql);
          }
 
+        public DataTable buscar_profesores()
+        {
+            string sql = "select * from listar_profesores";
+
+            return conexionDB.EjecutarConulta(sql);
+        }
+
+
     }
 }

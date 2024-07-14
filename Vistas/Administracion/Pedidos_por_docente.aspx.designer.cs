@@ -105,12 +105,21 @@ namespace Vistas.Administracion
         protected global::System.Web.UI.WebControls.Button btnConsultar;
 
         /// <summary>
-        /// Control gvConsulta0.
+        /// Control gvConsulta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvConsulta0;
+        protected global::System.Web.UI.WebControls.GridView gvConsulta;
+
+        /// <summary>
+        /// Control btnVolver.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnVolver;
     }
 }

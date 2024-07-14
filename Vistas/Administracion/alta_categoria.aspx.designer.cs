@@ -15,6 +15,15 @@ namespace Vistas.Administracion
     {
 
         /// <summary>
+        /// Control encabezado.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label encabezado;
+
+        /// <summary>
         /// Control form1.
         /// </summary>
         /// <remarks>
@@ -24,12 +33,21 @@ namespace Vistas.Administracion
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control encabezado.
+        /// Control TxtNueva.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label encabezado;
+        protected global::System.Web.UI.WebControls.TextBox TxtNueva;
+
+        /// <summary>
+        /// Control BtnGuardar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnGuardar;
     }
 }

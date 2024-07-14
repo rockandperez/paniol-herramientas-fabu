@@ -78,6 +78,15 @@ namespace Vistas.Administracion
         protected global::System.Web.UI.WebControls.Label lbl_error;
 
         /// <summary>
+        /// Control rfv_Stock.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv_Stock;
+
+        /// <summary>
         /// Control btn_aceptar.
         /// </summary>
         /// <remarks>

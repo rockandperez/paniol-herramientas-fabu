@@ -156,6 +156,15 @@ AS
 		id = @ID_HERRAMIENTA;
 GO
 
+CREATE PROCEDURE sp_InsertCategoria
+    @NuevaCategoria VARCHAR(50)
+AS
+BEGIN
+    INSERT INTO [herramientas_categoria] ([categoria])
+    VALUES (@NuevaCategoria);
+END
+GO
+
 
 
 --------------------------------------------------------------------------

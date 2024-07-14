@@ -14,7 +14,7 @@ namespace Datos
 
         public DataTable buscar_todos()
         {
-            string sql = "Select * from [herramientas_categoria]";
+            string sql = "SELECT DISTINCT * FROM [herramientas_categoria]";
             return conexion.EjecutarConulta(sql);
         }
     }

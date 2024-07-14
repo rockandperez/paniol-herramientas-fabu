@@ -14,14 +14,26 @@ namespace Entidades
         private int id_herramienta;
         private int cantidad_retirada;
         private int cantidad_devueltas_rotas;
-        private int id_profesor;
-        private DateTime fecha;
-        private DateTime hora_retiro ;
-        private DateTime hora_devolucion;
+        private long id_profesor;
+        private string fecha;
+        private string hora_retiro ;
+        private string hora_devolucion;
          
         public HerramientasUso ()
         {
 
+        }
+
+        public HerramientasUso(DataRow data)
+        {
+            id = (int)data["id"];
+            id_herramienta = (int)data["id_herramienta"];
+            cantidad_retirada = (int)data["cantidad_retirada"];
+            cantidad_devueltas_rotas = (int)data["cantidad_devueltas_rotas"];
+            id_profesor = (long)data["id_profesor"];
+            fecha = (String)data["fecha"];
+            hora_retiro = (String)data["hora_retiro"];
+            hora_devolucion = (String)data["hora_devolucion"];
         }
 
         //Setters
@@ -45,24 +57,24 @@ namespace Entidades
             this.cantidad_devueltas_rotas = cant_ret_rotas;
         }
 
-        public void setId_profesor(int id_profesor)
+        public void setId_profesor(long id_profesor)
         {
             this.id_profesor = id_profesor;
         }
 
-        public void setFecha(DateTime fecha)
+        public void setFecha(string fecha)
         {         
-            this.fecha = fecha.Date;
+            this.fecha = fecha;
         }
             
-        public void setHora_retiro(DateTime hora_retiro)
+        public void setHora_retiro(string hora_retiro)
         {
-            this.hora_retiro = hora_retiro.ToLocalTime();
+            this.hora_retiro = hora_retiro;
         }
 
-        public void setHora_devolucion(DateTime hora_dev)
+        public void setHora_devolucion(string hora_dev)
         {
-            this.hora_devolucion = hora_dev.ToLocalTime();
+            this.hora_devolucion = hora_dev;
         }
 
         //Getters
@@ -94,17 +106,17 @@ namespace Entidades
 
         public string getFecha()
         {
-            return fecha.Date.ToShortDateString();
+            return fecha;
         }
 
         public string getHora_retiro()
         {
-            return hora_retiro.TimeOfDay.ToString();
+            return hora_retiro;
         }
 
         public string getHora_devolucion()
         {
-            return hora_devolucion.TimeOfDay.ToString();
+            return hora_devolucion;
         }
     }
 }

@@ -6,6 +6,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Neogcio;
 using Entidades;
+using System.Reflection.Emit;
+using Vistas.Administracion;
 
 namespace Vistas.Login
 {
@@ -16,6 +18,8 @@ namespace Vistas.Login
         protected void Page_Load(object sender, EventArgs e)
 
         {
+
+
             try
             {
                 usuario = (Usuarios)Session["usuario"];
@@ -30,6 +34,7 @@ namespace Vistas.Login
             //validamos que la pass es "", si no lo es, escondemos los controles y definimos el flag
             if (!usuario.validarPass(""))
             {
+                nuevaPass = false;
                 txtRepeatPass.Visible = false;
                 lvlRepetirContraseña.Visible = false;
                 lblMsgUsuario.Text = "Bienvenido " + usuario.getNombreCompleto() + ". Ingrese su contraseña.";

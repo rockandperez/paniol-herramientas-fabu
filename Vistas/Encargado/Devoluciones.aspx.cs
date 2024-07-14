@@ -15,8 +15,15 @@ namespace Vistas.Encargado
         private NegHerramientasUso negHerramientasUso = new NegHerramientasUso();
         private NegUsuarios negUsuarios = new NegUsuarios();
 
+        //private List<int> roles = new List<int> { 1, 2 };
         protected void Page_Load(object sender, EventArgs e)
         {
+            //if (!utils.autorizar(Session, roles))
+            //{
+            //    Response.Redirect("../http401.aspx");
+            //}
+            //encabezado.Text = utils.cargaHeader(Session);
+
             if (!IsPostBack)
             {
                 cargarDropDownProfesores();
@@ -56,10 +63,10 @@ namespace Vistas.Encargado
         protected void btnDevolver_Click(object sender, EventArgs e)
         {
            // para obtener heerramientas seleccionas
-            foreach (ListItem item in listboxSeleccionados.Items)
-            {
-                // falata lógica para generar la devolucion en BD
-               }
+            //foreach (ListItem item in listboxSeleccionados.Items)
+            //{
+            //    // falata lógica para generar la devolucion en BD
+            //   }
         }
 
         protected void btnCancelar_Click(object sender, EventArgs e)

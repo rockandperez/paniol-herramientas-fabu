@@ -18,10 +18,5 @@ namespace Vistas.Administracion
             }
             encabezado.Text = utils.cargaHeader(Session);
         }
-
-        protected void ddlDocente_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

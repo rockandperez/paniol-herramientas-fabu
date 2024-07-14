@@ -10,7 +10,8 @@ namespace Vistas
 {
     public class utils
     {
-        public void logoff(HttpSessionState session){
+        public void logoff(HttpSessionState session)
+        {
 
             session["usuario"] = null;
             session["logedon"] = false;
@@ -20,14 +21,15 @@ namespace Vistas
             try
             {
                 Usuarios usuario = (Usuarios)session["usuario"];
-                if((bool)session["logedon"] == false)
+                if ((bool)session["logedon"] == false)
                 {
                     return false;
                 }
 
                 if (!roles.Contains(
                     usuario.getRol().getId()
-                    )){
+                    ))
+                {
                     return false;
                 }
                 return true;
@@ -43,7 +45,7 @@ namespace Vistas
 
             Usuarios usuario = (Usuarios)session["usuario"];
 
-            header = header + 
+            header = header +
                 "<td>" +
                 "<table>" +
                 "<tr>" +
@@ -54,15 +56,17 @@ namespace Vistas
                 "</tr>" +
                 "<tr>" +
                 "<td>";
-                
+
             if (usuario.getRol().getId() == 1)
             {
                 header = header + cargaLinksAdmin();
-            } else if(usuario.getRol().getId() == 2) {
+            }
+            else if (usuario.getRol().getId() == 2)
+            {
                 header = header + cargaLinksEncargado();
             }
             header = header + "</td></tr></table></td></tr></table>";
-            
+
             return header;
         }
         private static String cargaLinksAdmin()

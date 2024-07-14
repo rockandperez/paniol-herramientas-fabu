@@ -33,6 +33,15 @@ namespace Vistas.Encargado
         protected global::System.Web.UI.WebControls.Label encabezado;
 
         /// <summary>
+        /// Control cv_Profesores.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator cv_Profesores;
+
+        /// <summary>
         /// Control lblProfesor.
         /// </summary>
         /// <remarks>
@@ -51,57 +60,30 @@ namespace Vistas.Encargado
         protected global::System.Web.UI.WebControls.DropDownList ddlProfesores;
 
         /// <summary>
-        /// Control lblHerramienta.
+        /// Control gv_herramientas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblHerramienta;
+        protected global::System.Web.UI.WebControls.GridView gv_herramientas;
 
         /// <summary>
-        /// Control ddlHerramientas.
+        /// Control gv_retiros.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlHerramientas;
+        protected global::System.Web.UI.WebControls.GridView gv_retiros;
 
         /// <summary>
-        /// Control btnIngresar.
+        /// Control btn_Alta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnIngresar;
-
-        /// <summary>
-        /// Control GridView1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
-
-        /// <summary>
-        /// Control lblCantidad.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCantidad;
-
-        /// <summary>
-        /// Control txtCantidad.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCantidad;
+        protected global::System.Web.UI.WebControls.Button btn_Alta;
     }
 }

@@ -80,6 +80,7 @@
     <Content Include="Login\Imagenes\Logo.png" />
     <Content Include="Login\login_password.aspx" />
     <Content Include="Login\login_usuario.aspx" />
+    <Content Include="styles.css" />
     <Content Include="Web.config" />
     <Content Include="http401.aspx" />
   </ItemGroup>

@@ -19,6 +19,14 @@ namespace Datos
             string SQL = "SELECT * FROM listar_herramientas";
             return conexion.EjecutarConulta(SQL);
         }
+
+        public DataTable buscar_stock(string id)
+        {
+            string SQL = "SELECT disponible FROM herramientas " +
+                "WHERE id = " + id;
+            return conexion.EjecutarConulta(SQL);
+        }
+
     
         public int actualizar(Herramientas herramienta)
         {

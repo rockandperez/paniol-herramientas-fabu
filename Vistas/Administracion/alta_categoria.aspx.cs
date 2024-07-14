@@ -19,5 +19,10 @@ namespace Vistas.Administracion
             }
             encabezado.Text = utils.cargaHeader(Session);
         }
+
+        protected void BtnGuardar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

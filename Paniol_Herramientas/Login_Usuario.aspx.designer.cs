@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Vistas.Login
+namespace Paniol_Herramientas
 {
 
 
-    public partial class login_password
+    public partial class Login_Usuario
     {
 
         /// <summary>
@@ -24,67 +24,58 @@ namespace Vistas.Login
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control lblMsgUsuario.
+        /// Control Image1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMsgUsuario;
+        protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// Control lblContraseña0.
+        /// Control Bienvenido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblContraseña0;
+        protected global::System.Web.UI.WebControls.Label Bienvenido;
 
         /// <summary>
-        /// Control txtPass.
+        /// Control Usuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPass;
+        protected global::System.Web.UI.WebControls.Label Usuario;
 
         /// <summary>
-        /// Control lvlRepetirContraseña.
+        /// Control TxtUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lvlRepetirContraseña;
+        protected global::System.Web.UI.WebControls.TextBox TxtUsuario;
 
         /// <summary>
-        /// Control txtRepeatPass.
+        /// Control RvUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtRepeatPass;
+        protected global::System.Web.UI.WebControls.RangeValidator RvUsuario;
 
         /// <summary>
-        /// Control vld_compare.
+        /// Control LbUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator vld_compare;
-
-        /// <summary>
-        /// Control RequiredFieldValidator2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.Label LbUsuario;
 
         /// <summary>
         /// Control Button1.

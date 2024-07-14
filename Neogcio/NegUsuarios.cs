@@ -61,7 +61,8 @@ namespace Neogcio
 
         public DataTable obtenerProfesores()
         {
-            return null;
+            DataTable datosProfesores = daoUsuarios.buscar_profesores();
+            return datosProfesores;
         }
 
         public bool cambiaPass(string pass, long id)

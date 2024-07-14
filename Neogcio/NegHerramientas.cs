@@ -18,6 +18,11 @@ namespace Neogcio
             return herramientas.buscar_todos();
         }
 
+        public DataTable buscar_stock(string id)
+        {
+            return herramientas.buscar_stock(id);
+        }
+
         public bool actualizar(Herramientas herramienta)
         {
             if(herramientas.actualizar(herramienta) == 0)
